@@ -1,0 +1,38 @@
+[{
+    "id": 1,
+    "tipo": "Cacerola",
+    "nombre": "Cacerola 18 cm",
+    "precio": 45000,
+    "foto": "../media/cacerola18cm.jpeg"
+}, {
+    "id": 2,
+    "tipo": "Cacerola",
+    "nombre": "Cacerola 24 cm",
+    "precio": 65000,
+    "foto": "../media/cacerola24cm.jpeg"
+}, {
+    "id": 3,
+    "tipo": "Mate",
+    "nombre": "Mate Aqua",
+    "precio": 3500,
+    "foto": "../media/mate.jpeg"
+}, {
+    "id": 4,
+    "tipo": "Sarten",
+    "nombre": "Sarten 18 cm",
+    "precio": 35000,
+    "foto": "../media/sarten18cm.jpeg"
+}, {
+    "id": 5,
+    "tipo": "Sarten",
+    "nombre": "Sarten 24 cm",
+    "precio": 55000,
+    "foto": "../media/sarten24cm.jpeg"
+}, {
+    "id": 6,
+    "tipo": "wok",
+    "nombre": "wok antiadherente",
+    "precio": 68000,
+    "foto": "../media/wok.jpeg"
+}
+]
