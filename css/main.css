@@ -134,6 +134,91 @@ footer .footer-content .footer-redes li i {
   font-size: 1rem;
 }
 
+.seccionRecetas {
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+.seccionRecetas .recetas {
+  width: 90%;
+  height: auto;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.seccionRecetas .recetas .title-general {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 50px;
+  text-align: center;
+}
+.seccionRecetas .recetas form {
+  width: 90%;
+  max-width: 1600px;
+  margin: 20px;
+}
+.seccionRecetas .recetas form .input {
+  width: 100%;
+  background-color: aquamarine;
+  padding: 12px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+.seccionRecetas .recetas .buscar {
+  margin-top: 40px;
+  width: 100%;
+  display: grid;
+  grid-gap: 25px;
+  grid-template: auto/repeat(auto-fit, minmax(300, 1fr));
+}
+.seccionRecetas .recetas .buscar .item {
+  margin: auto;
+  width: 100%;
+  padding: 15px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.seccionRecetas .recetas .buscar .item img {
+  width: 50%;
+  height: 300px;
+  border-radius: 10px;
+  margin: 10px 10px 10px 250px;
+}
+.seccionRecetas .recetas .buscar .item .flex-container {
+  display: flex;
+  align-items: center;
+}
+.seccionRecetas .recetas .buscar .item .flex-container .card-title {
+  margin: 10px 10px 10px 250px;
+  font-size: 1.8rem;
+  font-weight: 400;
+  justify-content: center;
+}
+.seccionRecetas .recetas .buscar .item .flex-container .enlace {
+  text-decoration: none;
+  color: grey;
+  text-align: center;
+  width: 100px;
+  padding: 10px 0;
+  font-size: 25px;
+  margin: 30px;
+  align-self: flex-start;
+  border-radius: 5px;
+  background-color: aquamarine;
+}
+.seccionRecetas .recetas .buscar .item .recetaDesc {
+  display: block;
+  margin-top: 10px;
+  font-size: 1.4rem;
+  margin: 10px 10px 10px 250px;
+}
+
 /* === PRODUCTOS === */
 #container-general {
   display: flex;

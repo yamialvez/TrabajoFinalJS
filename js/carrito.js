@@ -62,6 +62,8 @@ function obtenerJSON() {
   });
 }
 
+
+
 //funcion para ordenar los productos segun precio y orden alfabetico
 function ordenarProductos() {
   let seleccion = $("#seleccion").val();
